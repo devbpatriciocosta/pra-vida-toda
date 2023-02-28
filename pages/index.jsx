@@ -1,9 +1,11 @@
+import NavBar from '../src/components/navBar/NavBar'
+
 function praTodaVidaApp() {
-  return (
-    <>
-      <h1># Pra toda vida</h1>
-    </>
-  )
+ return (
+  <>
+   <NavBar />
+  </>
+ )
 }
 
 export default praTodaVidaApp
