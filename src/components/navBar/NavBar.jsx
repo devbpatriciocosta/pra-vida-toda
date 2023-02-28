@@ -14,6 +14,16 @@ const MainContainer = styled.nav`
 
 const TitleContainer = styled.p`
   cursor: pointer;
+  font-size: 24px;
+  font-style: normal;
+  color: ${(props) => props.theme.white};
+
+  transition: ease-in-out 0.3s;
+
+  :hover {
+    transform: scale(1.1);
+    color: ${(props) => props.theme.terciary};
+  }
 `
 
 const DesconectContainer = styled.p`
@@ -23,9 +33,7 @@ const DesconectContainer = styled.p`
 export default function NavBar() {
   return (
     <MainContainer>
-      <TitleContainer>
-        <H4>#PraTodaVida</H4>
-      </TitleContainer>
+      <TitleContainer>#PraTodaVida</TitleContainer>
       <DesconectContainer>
         <H4>Desconectar</H4>
       </DesconectContainer>

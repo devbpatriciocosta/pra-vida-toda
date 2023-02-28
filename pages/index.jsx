@@ -1,11 +1,11 @@
 import NavBar from '../src/components/navBar/NavBar'
 
 function praTodaVidaApp() {
- return (
-  <>
-   <NavBar />
-  </>
- )
+  return (
+    <>
+      <NavBar />
+    </>
+  )
 }
 
 export default praTodaVidaApp
