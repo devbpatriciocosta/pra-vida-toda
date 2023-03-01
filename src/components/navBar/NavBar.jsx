@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-import H4 from '../typography/H4'
-
 const MainContainer = styled.nav`
   display: flex;
   justify-content: space-between;
@@ -28,15 +26,22 @@ const TitleContainer = styled.p`
 
 const DesconectContainer = styled.p`
   cursor: pointer;
+  font-size: 24px;
+  font-style: normal;
+  color: ${(props) => props.theme.white};
+
+  transition: ease-in-out 0.3s;
+
+  :hover {
+    transform: scale(1.1);
+  }
 `
 
 export default function NavBar() {
   return (
     <MainContainer>
       <TitleContainer>#PraTodaVida</TitleContainer>
-      <DesconectContainer>
-        <H4>Desconectar</H4>
-      </DesconectContainer>
+      <DesconectContainer>Desconectar</DesconectContainer>
     </MainContainer>
   )
 }
