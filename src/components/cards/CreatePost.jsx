@@ -12,7 +12,7 @@ import ControlledTextarea from '../inputs/ControlledTextArea'
 import H4 from '../typography/H4'
 
 const CreateMessageContainer = styled.div`
-  background-color: ${(props) => props.theme.terciary};
+  background-color: ${(props) => props.theme.quaternary};
   padding: 20px 40px;
 `
 
