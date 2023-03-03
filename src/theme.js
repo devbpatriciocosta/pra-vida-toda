@@ -6,7 +6,9 @@ const theme = {
   primaryFontColor: '#BBDED6',
   secondaryFontColor: '#FFB6B9',
   backgroundColor: '#FAE3D9',
-  white: '#FFFFFF'
+  white: '#FFFFFF',
+  error: 'red',
+  disabled: 'grey'
 }
 
 export default theme
