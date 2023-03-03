@@ -14,6 +14,7 @@ import H4 from '../typography/H4'
 const CreateMessageContainer = styled.div`
   background-color: ${(props) => props.theme.quaternary};
   padding: 20px 40px;
+  border-radius: 10px;
 `
 
 const Title = styled.div`
@@ -38,6 +39,7 @@ const BottomContainer = styled.div`
 
 const BottomText = styled.p`
   flex: 1;
+  color: ${(props) => props.theme.white};
 `
 
 export default function CreatePost() {
