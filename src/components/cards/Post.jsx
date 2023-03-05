@@ -5,6 +5,7 @@ import { useState } from 'react'
 import moment from 'moment'
 
 import EditPost from './EditPost'
+import Menu from '../navigation/Menu'
 
 const PostContainer = styled.div`
   background-color: ${(props) => props.theme.quaternary};
