@@ -14,12 +14,12 @@ const LastPostText = styled.div`
   padding: 40px 0;
 `
 
-// const PostContainer = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   gap: 20px;
-//   margin-top: 20px;
-// `
+const PostContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+`
 
 function praTodaVidaApp() {
   return (
@@ -31,6 +31,7 @@ function praTodaVidaApp() {
           <LastPostText>
             <H3>Últimas Postagens</H3>
           </LastPostText>
+          <PostContainer></PostContainer>
         </MainContainer>
       </Content>
     </>
